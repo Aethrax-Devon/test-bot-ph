@@ -67,7 +67,7 @@ app.get('/webhook-message', (req, res) => {
       res.sendStatus(403);
     }
   }
-  res.json(data)
+  // res.json(data)
   res.send("HAHAHA")
 });
 
