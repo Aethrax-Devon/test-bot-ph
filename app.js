@@ -67,7 +67,7 @@ app.get('/webhook-message', (req, res) => {
       res.sendStatus(403);
     }
   }
-  res.send("AAAAAHHHHH")
+  res.send(res)
 });
 
 // Creates the endpoint for your webhook
